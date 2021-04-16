@@ -1,0 +1,26 @@
+{
+  "name": "treyan/supermetrics",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Treyan",
+      "email": "treyan94@protonmail.com"
+    }
+  ],
+  "require": {
+    "php": "8.0.*",
+    "guzzlehttp/guzzle": "^7.3",
+    "nesbot/carbon": "^2.46",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\":"app/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.2"
+  }
+}
